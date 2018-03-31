@@ -1,15 +1,9 @@
-let myName: string = "Max";
-let myAge: number = 27;
-let anything;
-anything = 12;
+// let & const
+let variable = "Test";
+console.log(variable);
+variable = "Another value";
+console.log(variable);
 
-// myName = 30;
-
-function controlMe(isTrue: boolean, somethingElse: boolean) {
-    let result: number;
-    if (isTrue) {
-        result = 12;
-    }
-    result = 33;
-    return result;
-}
+const maxLevels = 100;
+console.log(maxLevels);
+// maxLevels = 99; // Won't work
