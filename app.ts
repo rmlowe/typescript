@@ -59,6 +59,25 @@ console.log(multiply(10, 2));
 // function types
 let myMultiply: (a: number, b: number) => number;
 // myMultiply = sayHello;
-myMultiply();
+// myMultiply();
 myMultiply = multiply;
 console.log(myMultiply(5, 2));
+
+// objects
+let userData: { name: string, age: number } = {
+    name: "Max",
+    age: 27
+};
+// userData = {
+//     a: "Hello",
+//     b: 22
+// }
+
+// complex object
+let complex: {data: number[], output: (all: boolean) => number[]} = {
+    data: [100, 3.99, 10],
+
+    output: function (all: boolean): number[] {
+        return this.data;
+    }
+};
