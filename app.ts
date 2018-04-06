@@ -35,3 +35,14 @@ greet();
 
 const greetFriend = friend => console.log(friend);
 greetFriend("Manu");
+
+// Default Parameters
+console.log("DEFAULT PARAMETERS");
+const countdown = (start: number = 10) => {
+    console.log(start);
+    while (start > 0) {
+      start--;
+    }
+    console.log("Done!", start);
+};
+countdown();
