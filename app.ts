@@ -57,3 +57,9 @@ function makeArray(name: string, ...args: number[]) {
     return args;
 }
 console.log(makeArray("Max", 1, 2, 6));
+
+// Destructuring
+console.log("DESTRUCTURING");
+const myHobbies = ["Cooking", "Sports"];
+const [hobby1, hobby2] = myHobbies;
+console.log(hobby1, hobby2);
