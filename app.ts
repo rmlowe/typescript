@@ -63,3 +63,7 @@ console.log("DESTRUCTURING");
 const myHobbies = ["Cooking", "Sports"];
 const [hobby1, hobby2] = myHobbies;
 console.log(hobby1, hobby2);
+
+const userData = {userName: "Max", age: 27};
+const {userName: myName, age: myAge} = userData;
+console.log(myName, myAge);
