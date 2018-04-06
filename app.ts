@@ -67,3 +67,10 @@ console.log(hobby1, hobby2);
 const userData = {userName: "Max", age: 27};
 const {userName: myName, age: myAge} = userData;
 console.log(myName, myAge);
+
+// Template Literals
+const userName = "Max";
+const greeting = `This is a heading!
+I'm ${userName}.
+This is cool!`;
+console.log(greeting);
