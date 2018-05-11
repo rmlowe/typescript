@@ -33,7 +33,9 @@ var Max = /** @class */ (function (_super) {
     __extends(Max, _super);
     // name = "Max";
     function Max(username) {
-        return _super.call(this, "Max", username) || this;
+        var _this = _super.call(this, "Max", username) || this;
+        _this.age = 31;
+        return _this;
     }
     return Max;
 }(Person));

@@ -29,6 +29,7 @@ class Max extends Person {
 
     constructor(username: string) {
         super("Max", username);
+        this.age = 31;
     }
 }
 const max = new Max("max");
