@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="155e4319-8590-4ac2-84ca-a8d92b97b3e2" name="Default" comment="Creating Classes and Class Properties; Class Methods and Access Modifiers">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app.ts" afterDir="false" />
-    </list>
+    <list default="true" id="155e4319-8590-4ac2-84ca-a8d92b97b3e2" name="Default" comment="Creating Classes and Class Properties; Class Methods and Access Modifiers" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -143,7 +139,7 @@
       <workItem from="1525885176687" duration="2525000" />
       <workItem from="1525968468244" duration="7000" />
       <workItem from="1525968595327" duration="9000" />
-      <workItem from="1526054037926" duration="1615000" />
+      <workItem from="1526054037926" duration="2922000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1521696660083</created>
@@ -359,11 +355,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29111000" />
+    <option name="totallyTimeSpent" value="30418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2361111" />
