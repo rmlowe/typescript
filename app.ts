@@ -22,3 +22,10 @@ const person = new Person("Max", "max");
 console.log(person.name, person.username);
 person.printAge();
 // person.setType("Cool guy"); // Won't work with private method
+
+// Inheritance
+class Max extends Person {
+    name = "Max";
+}
+const max = new Max("Anna", "max");
+console.log(max);
