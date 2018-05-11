@@ -31,12 +31,11 @@ person.printAge();
 // Inheritance
 var Max = /** @class */ (function (_super) {
     __extends(Max, _super);
-    function Max() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.name = "Max";
-        return _this;
+    // name = "Max";
+    function Max(username) {
+        return _super.call(this, "Max", username) || this;
     }
     return Max;
 }(Person));
-var max = new Max("Anna", "max");
+var max = new Max("max");
 console.log(max);

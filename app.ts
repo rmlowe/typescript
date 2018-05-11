@@ -25,7 +25,11 @@ person.printAge();
 
 // Inheritance
 class Max extends Person {
-    name = "Max";
+    // name = "Max";
+
+    constructor(username: string) {
+        super("Max", username);
+    }
 }
-const max = new Max("Anna", "max");
+const max = new Max("max");
 console.log(max);
