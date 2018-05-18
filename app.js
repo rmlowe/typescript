@@ -5,9 +5,9 @@ function changeName(person) {
     person.firstName = "Anna";
 }
 var person = {
-    name: "Max",
+    firstName: "Max",
     age: 27
 };
-greet(person);
+greet({ firstName: "Max", age: 27 });
 changeName(person);
 greet(person);
