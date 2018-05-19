@@ -21,8 +21,8 @@
       <file leaf-file-name="app.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="366">
+              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -144,7 +144,7 @@
       <workItem from="1526054037926" duration="3198000" />
       <workItem from="1526224058967" duration="6356000" />
       <workItem from="1526567996110" duration="5880000" />
-      <workItem from="1526661247463" duration="494000" />
+      <workItem from="1526661247463" duration="2285000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1521696660083</created>
@@ -419,11 +419,25 @@
       <option name="project" value="LOCAL" />
       <updated>1526574665203</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Interfaces and Methods">
+      <created>1526662643161</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1526662643161</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Using Interfaces with Classes">
+      <created>1526663072087</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1526663072087</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43424000" />
+    <option name="totallyTimeSpent" value="45215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
@@ -432,12 +446,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2361111" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50555557" side_tool="true" weight="0.29194188" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50625" side_tool="true" weight="0.29194188" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32963988" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49444443" visible="true" weight="0.29194188" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49375" visible="true" weight="0.29194188" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -463,8 +477,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Avoiding implicit &quot;Any&quot;" />
-    <MESSAGE value="Compiler Improvements with TypeScript 2.0" />
     <MESSAGE value="&quot;Let&quot; and &quot;Const&quot;" />
     <MESSAGE value="Block Scope" />
     <MESSAGE value="Arrow Functions" />
@@ -488,7 +500,9 @@
     <MESSAGE value="Importing &amp; Exporting Modules" />
     <MESSAGE value="Module Resolution" />
     <MESSAGE value="The Basics about Interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="The Basics about Interfaces" />
+    <MESSAGE value="Interfaces and Methods" />
+    <MESSAGE value="Using Interfaces with Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Interfaces with Classes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.ts">
@@ -710,8 +724,8 @@
     <entry file="file://$PROJECT_DIR$/math/rectangle.ts" />
     <entry file="file://$PROJECT_DIR$/app.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="366">
+          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
         </state>
       </provider>
     </entry>
