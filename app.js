@@ -21,3 +21,6 @@ function printAll(args) {
     args.forEach(function (element) { return console.log(element); });
 }
 printAll(["Apple", "Banana"]);
+// Generic Types
+var echo2 = betterEcho;
+console.log(echo2("Something"));
