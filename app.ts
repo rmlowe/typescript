@@ -20,3 +20,9 @@ console.log(echo({name: "Max", age: 27}));
 const testResults: Array<number> = [1.94, 2.33];
 testResults.push(-2.99);
 console.log(testResults);
+
+// Arrays
+function printAll<T>(args: T[]) {
+    args.forEach((element) => console.log(element));
+}
+printAll<string>(["Apple", "Banana"]);
