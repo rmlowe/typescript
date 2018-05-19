@@ -33,7 +33,7 @@ const echo2: <T>(data: T) => T = betterEcho;
 console.log(echo2<string>("Something"));
 
 // Generic Class
-class SimpleMath<T> {
+class SimpleMath<T extends number | string> {
     baseValue: T;
     multiplyValue: T;
     calculate(): number {
@@ -41,7 +41,7 @@ class SimpleMath<T> {
     }
 }
 
-const simpleMath = new SimpleMath();
-simpleMath.baseValue = "something";
-simpleMath.multiplyValue = 20;
+const simpleMath = new SimpleMath<boolean>();
+simpleMath.baseValue = true;
+simpleMath.multiplyValue = false;
 console.log(simpleMath.calculate());

@@ -34,6 +34,6 @@ var SimpleMath = /** @class */ (function () {
     return SimpleMath;
 }());
 var simpleMath = new SimpleMath();
-simpleMath.baseValue = "something";
-simpleMath.multiplyValue = 20;
+simpleMath.baseValue = true;
+simpleMath.multiplyValue = false;
 console.log(simpleMath.calculate());
