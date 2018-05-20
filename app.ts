@@ -45,3 +45,48 @@ const simpleMath = new SimpleMath<string, number>();
 simpleMath.baseValue = "10";
 simpleMath.multiplyValue = 20;
 console.log(simpleMath.calculate());
+
+
+
+// Module Exercise
+class Entry<T> {
+    constructor(public readonly key: string, public value: T) {}
+}
+
+class MyMap<T> {
+    private entries: Array<{ readonly key: string, readonly value: T }> = [];
+
+    setItem(key: string, value: T) {
+        this.entries = this.entries.filter(entry => entry.key !== key).concat({ key, value });
+    }
+
+    getItem(key: string) {
+        return this.entries.filter(entry => entry.key === key)[0].value;
+    }
+
+    clear() {
+        this.entries = [];
+    }
+
+    printMap() {
+        console.log('{');
+        this.entries.forEach(entry => console.log('   ', entry.key, ': ', entry.value));
+        console.log('}');
+    }
+}
+
+const numberMap = new MyMap<number>();
+numberMap.setItem('apples', 5);
+numberMap.setItem('bananas', 10);
+numberMap.setItem('apples', 20);
+numberMap.printMap();
+console.log(numberMap.getItem('apples'));
+
+const stringMap = new MyMap<string>();
+stringMap.setItem('name', "Max");
+stringMap.setItem('age', "27");
+stringMap.setItem('name', "Anna");
+stringMap.printMap();
+console.log(stringMap.getItem('age'));
+stringMap.clear();
+stringMap.printMap();
