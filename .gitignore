@@ -61,3 +61,4 @@ app.js
 .idea/workspace.xml
 dist/
 src/index.js
+src/components/Home.js
