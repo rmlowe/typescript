@@ -1,28 +1,23 @@
 {
-  "name": "typescript-complete-course",
+  "name": "course-workspace",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "jquery": "^3.3.1",
-    "systemjs": "^0.21.3"
-  },
-  "devDependencies": {
-    "@types/jquery": "^3.3.5",
-    "gulp": "^3.9.1",
-    "gulp-typescript": "^5.0.0-alpha.3",
-    "lite-server": "^2.3.0",
-    "ts-loader": "^4.4.2",
-    "typescript": "^3.0.1",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server",
-    "build": "webpack -d --watch",
-    "build:prod": "webpack -p"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmlowe/typescript.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmlowe/typescript/issues"
+  },
+  "homepage": "https://github.com/rmlowe/typescript#readme",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
 }
