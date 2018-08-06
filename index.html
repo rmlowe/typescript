@@ -9,14 +9,18 @@
     <script src="node_modules/systemjs/dist/system.js"></script>
 </head>
 <body>
+<div id="app">Change it with jQuery</div>
 <script>
     SystemJS.config({
-       baseURL: '/',
-       packages: {
-           '/': {
-               defaultExtension: 'js'
-           }
-       }
+        map: {
+            "jQuery": "node_modules/jquery/dist/jquery.min.js"
+        },
+        baseURL: '/',
+        packages: {
+            '/': {
+                defaultExtension: 'js'
+            }
+        }
     });
     SystemJS.import('/app.js');
 </script>
