@@ -12,12 +12,16 @@
     "gulp": "^3.9.1",
     "gulp-typescript": "^5.0.0-alpha.3",
     "lite-server": "^2.3.0",
-    "typescript": "^3.0.1"
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server",
-    "build": "gulp"
+    "build": "webpack -d --watch",
+    "build:prod": "webpack -p"
   },
   "author": "",
   "license": "ISC"
