@@ -9,11 +9,15 @@
   },
   "devDependencies": {
     "@types/jquery": "^3.3.5",
-    "lite-server": "^2.3.0"
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "lite-server": "^2.3.0",
+    "typescript": "^3.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "build": "gulp"
   },
   "author": "",
   "license": "ISC"
